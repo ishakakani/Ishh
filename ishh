@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saffron Sweets - Authentic Indian Desserts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Saffron Sweets</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="headline">
+            Shrikhand So Good, You Can’t Stop at One Spoon!
+          </h1>
+          <div class="cta-buttons">
+            <a href="products.html" class="cta-button">Shop Now</a>
+            <a href="products.html" class="cta-button explore-btn"
+              >Explore Flavours</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Flavours Section -->
+      <section class="featured-flavours">
+        <h2 class="section-title">Our Featured Flavours</h2>
+        <div class="flavour-cards-container">
+          <div class="flavour-card">
+            <img
+              src="images/classic-shrikhand.jpg"
+              alt="Classic Shrikhand"
+              class="product-image"
+            />
+            <h3 class="product-name">Classic Shrikhand</h3>
+            <p class="product-desc">
+              Experience the timeless taste of our traditional Classic Shrikhand,
+              made with the finest ingredients.
+            </p>
+            <a href="products.html#classic" class="order-button"
+              >Order Now</a
+            >
+          </div>
+          <div class="flavour-card">
+            <img
+              src="images/kesar-pista.jpg"
+              alt="Kesar Pista Shrikhand"
+              class="product-image"
+            />
+            <h3 class="product-name">Kesar Pista</h3>
+            <p class="product-desc">
+              A royal fusion of aromatic saffron and crunchy pistachios in every
+              spoonful.
+            </p>
+            <a href="products.html#kesar-pista" class="order-button"
+              >Order Now</a
+            >
+          </div>
+          <div class="flavour-card">
+            <img
+              src="images/mango-mirang.jpg"
+              alt="Mango Mirang Shrikhand"
+              class="product-image"
+            />
+            <h3 class="product-name">Mango Mirang</h3>
+            <p class="product-desc">
+              The sweet and tangy flavour of ripe mango, a perfect summer
+              delight.
+            </p>
+            <a href="products.html#mango-mirang" class="order-button"
+              >Order Now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Preview -->
+      <section class="about-us-preview">
+        <div class="about-us-content">
+          <h2 class="section-title">Our Story</h2>
+          <p>
+            Rooted in tradition and crafted with modern finesse, our Shrikhand
+            is a tribute to heritage. For generations, we have perfected the art
+            of this classic Indian dessert, bringing you a taste that is both
+            nostalgic and uniquely delightful.
+          </p>
+          <a href="about.html" class="read-more-btn">Read Our Full Story</a>
+        </div>
+      </section>
+
+      <!-- Team Preview -->
+      <section class="team-preview">
+        <h2 class="section-title">Meet Our Team</h2>
+        <div class="team-cards-container">
+          <div class="team-card">
+            <img src="images/team-isha.jpg" alt="Team Member Isha" class="team-photo" />
+            <h4 class="team-name">Isha</h4>
+            <p class="team-role">Founder</p>
+          </div>
+          <div class="team-card">
+            <img src="images/team-muneeb.jpg" alt="Team Member Muneeb" class="team-photo" />
+            <h4 class="team-name">Muneeb</h4>
+            <p class="team-role">Lead Chef</p>
+          </div>
+          <div class="team-card">
+            <img src="images/team-bhushan.jpg" alt="Team Member Bhushan" class="team-photo" />
+            <h4 class="team-name">Bhushan</h4>
+            <p class="team-role">Head of Marketing</p>
+          </div>
+        </div>
+        <a href="team.html" class="meet-all-btn">Meet the Entire Team</a>
+      </section>
+
+      <!-- Contact CTA -->
+      <section class="contact-cta">
+        <h2 class="cta-banner-text">
+          Want to taste our Shrikhand? <br />
+          Contact us now!
+        </h2>
+        <div class="cta-banner-buttons">
+          <a
+            href="https://wa.me/your-number"
+            target="_blank"
+            class="cta-contact-btn whatsapp-btn"
+            ><i class="fab fa-whatsapp"></i> WhatsApp</a
+          >
+          <a href="tel:your-phone-number" class="cta-contact-btn call-btn"
+            ><i class="fas fa-phone"></i> Call</a
+          >
+          <a href="mailto:your-email@example.com" class="cta-contact-btn email-btn"
+            ><i class="fas fa-envelope"></i> Email</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p>Phone: +91 98765 43210</p>
+          <p>Email: info@saffronsweets.com</p>
+          <p>Address: Pune, Maharashtra, India</p>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 Saffron Sweets. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
